@@ -15,24 +15,30 @@
 
         <!-------===========Login Container=========---------->
 
-        <div class="bg-gray-100 flex rounded-2x1 
+        <div class="bg-gray-100 flex rounded-lg 
         shadow-lg max-w-3x1 p-5">
             <!------------------- Form-------------->
             <div class="w-1/2 px-16">
-                <h2 class="font-bold text-2x1">Test</h2>
+                <h2 class="font-bold text-2x1 ">Login</h2>
                 <p class="text-sm mt-4">if you already a member, easily log in</p>
 
-                <form action="" class="flex flex-col">
-                    <input type="text" name="email" placeholder="Email">
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 rounded-lg border" type="text" name="email" placeholder="Email">
 
-                    <input type="password" name="password" placeholder="Password">
-                    <button>Login</button>
+                    <input class="p-2 rounded-lg border" type="password" name="password" placeholder="Password">
+                    <button class="bg-green-700 rounded-lg">Login</button>
                 </form>
+
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-500">
+                    <hr class="outline-gray-500">
+                    <p>OR</p>
+                    <hr class="outline-gray-500">
+                </div>
             </div>
 
             <!-----------------Image-------------->
-            <div class="w-1/2 ">
-                <img class="sm:block hidden
+            <div class=" sm:block hidden w-1/2 ">
+                <img class="rounded-lg" src="img/kbb-letter-logo-design-on-white-backgroundkbb-vector-41990363 (2).png"
                     alt="">
             </div>
 
@@ -40,7 +46,7 @@
 
     </section>
 
- <script src=" style.css"></script>
+    <script src="style.css"></script>
 </body>
 
 </html>
